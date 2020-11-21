@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(IMAGES/bricksbg.jpg)
+  background: url(IMAGES/ocean.jpeg)
       center center fixed no-repeat;
     background-size:cover;
 	
@@ -68,17 +68,18 @@ html, body {
 
 .center {
     width: 800px;
+    max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
  	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	border: 3px red;
 	text-align: center;
 }
 
@@ -112,7 +113,7 @@ nav{
     font-size: 1.2em;
     width: 400px;
     margin: 0 auto;
-    border: dashed turquoise;
+    border: 15px solid green;
     border-width: 3px 0;
     text-align: center;
     margin-top: 2em;
@@ -127,12 +128,12 @@ nav a{
     }
 
 a{
-    color:aquamarine;
+    color:greenyellow;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover{
-    color: aqua;
-    background:pink;
+    color: greenyellow;
+    background:orange;
     }
