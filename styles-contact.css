@@ -23,7 +23,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 80%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -60,63 +60,65 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(IMAGES/ocean.jpeg)
-      center center fixed no-repeat;
+  background: url(IMAGES/green_trees.jpeg)
+      center fixed no-repeat;
     background-size:cover;
 	
 }
 
 .center {
-    width: 800px;
-    max-width: 800px;
+    width: 600px;
+    max-width: 600px;
 	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+    margin: 00px auto; /*this uses opacity of 75% for the background color*/
 	text-align: center;
 
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px red;
-	text-align: center;
+    width: 300px;
+    height: 200px; /* as the half of the width */
+    background-color: lawngreen;
+    border-top-left-radius: 210px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 210px; /* 100px of height + 10px of border */
+    border-bottom-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-bottom-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 10px;
+    border-bottom: 0;
 }
 
-h1 {
+
+h1,h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
-}
-
-h2 {
     font-family: story-tales, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
+	font-size: 1.5em;
+    letter-spacing: 0.1em;
+    margin:0px center;
+    margin-bottom: center;
+    color: ghostwhite;
+    border 20px 20px 20px 20px
+    height:200px; /* as the half of the width */
+    background-color: darkorange;
+    border: 20px;
+    border-bottom: 0;
+    padding: 20px 20px 20px 20px;
+    border: 15px groove greenyellow;
+    
 }
 
-p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
-	font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
-}
-    
 nav{
     font-family: garamond;
+    color: #fff;
     font-size: 1.2em;
-    width: 400px;
+    width: 700px;
     margin: 0 auto;
-    border: 15px solid green;
+    border: 15px groove greenyellow;
     border-width: 3px 0;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 0em;
+    border-style: ridge;
+    background-color: green
     }
 
 nav li{
@@ -128,12 +130,13 @@ nav a{
     }
 
 a{
-    color:greenyellow;
+    color:#fff;
     text-decoration: none;
     font-weight: bold;
+
 }
 
 a:hover{
-    color: greenyellow;
+    color: #fff;
     background:orange;
     }
