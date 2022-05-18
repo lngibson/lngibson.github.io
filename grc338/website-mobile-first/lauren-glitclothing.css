@@ -1,0 +1,120 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%; 
+    display: block;
+    padding: 1em 1em 1em 0em;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header{
+    background-color: rgb(60,179,113);
+}
+
+
+
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    color: rgb(152,251,152); 
+}
+
+nav ul{
+    padding: 0re, 3rem, 0rem;
+}
+
+nav ul li{    
+    
+    display: inline-block;
+    list-style-type: none;
+    font-family: los-feliz, serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem, 1rem, 1rem;
+    margin-right: 3rem;
+
+}
+    
+h1 {
+	width: 9em;
+    margin: 1rem;
+    padding: 1.5rem 1.5rem 1.5rem;
+}
+
+h2 {
+	color:rgb(152,251,152); 
+	font-size: 3.5em;
+	padding: 2rem 0rem 2rem;
+    font-family: salsero, serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h3 {
+	margin: 0rem 0rem 1rem; 
+	font-size: 1.5em; 
+    font-family: los-feliz, serif;
+    font-style: normal;
+    font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.07em; 
+    padding: 2rem 0rem 2rem;
+}
+h4 {
+	margin: 0rem 0rem 0rem; 
+	font-size: 1em;
+    font-family: los-feliz, serif;
+    font-style: normal;
+    font-weight: 400;
+	letter-spacing: 0.07em; 
+    padding: 2rem 0rem 2rem;
+}
+
+body {
+	background-color: rgb(60,179,113); 
+	color: whitesmoke;  
+	line-height: 160%; 
+	font-family: los-feliz, serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0.5rem 2rem 0.5rem;
+}
+
+p{
+    color: whitesmoke;  
+	line-height: 160%; 
+	font-family: los-feliz, serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 1.5rem 0rem 1.5rem;
+}
+
+ p ul li{    
+    
+    display: inline-block;
+    list-style-type: none;
+    font-family: los-feliz, serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 2rem, 2rem, 2rem;
+
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
